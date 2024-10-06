@@ -1,0 +1,154 @@
+.hero {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    padding-top: 20px;
+
+    .hero_items {
+        width: 100%;
+        display: flex;
+        gap: 10px;
+    }
+
+    .hero_image_title {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        background-color: #EEF4FF;
+        border-radius: 20px;
+
+    }
+
+    .hero_image {
+        display: flex;
+        flex-direction: column;
+    }
+    .hero_img{
+        width: 250px;
+        height: 274px;
+        padding-top: 78px;
+        border-radius: 20px;
+        img{
+            width: 100%;
+            border-radius: 20px;
+        }
+    }
+    .hero_imgTitle{
+        font-size: 20px;
+        font-weight: 700;
+        padding-left: 20px; 
+    }
+
+    .hero_book_items {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        position: relative;
+    }
+    .hero_books{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        &:hover{
+            transition: all 0.5s ease;
+            transform: scale(1.02);
+        }
+    }
+    .book_img{
+        width: 190px;
+        height: 265px;
+        img{
+            width: 100%;
+            border-radius: 15px;
+        }
+    }
+    .book_left{
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        border: none;
+        background-color: #3F51B5;
+        position: absolute;
+        top: 135px;
+        left: -30px;
+        color: white;
+        transform: translate(-50%,-50%);
+    }
+    .book_right{
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        border: none;
+        background-color: #3F51B5;
+        position: absolute;
+        top: 135px;
+        right: -60px;
+        color: white;
+        transform: translate(-50%,-50%);
+    }
+    .hero_follow {
+        width: 300px;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        border-radius: 20px;
+        background-color: #3748A6;
+        position: relative;
+
+        .follow_title {
+            font-size: 20px;
+            color: white;
+            font-weight: 700;
+            position: absolute;
+            left: 20px;
+            top: 30px;
+
+        }
+
+        .follow_list {
+            position: absolute;
+            top: 30%;
+            left: 20px;
+            font-size: 14px;
+            color: white;
+            line-height: 20px;
+
+        }
+
+        .follow_btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 2px;
+            position: absolute;
+            bottom: 50px;
+            left: 20px;
+            width: 200px;
+            height: 40px;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: 700;
+
+            &:hover {
+                // transform: scale(1.1);
+                transition: all 0.5s ease;
+                background-color: goldenrod;
+                color: white;
+            }
+        }
+
+    }
+}

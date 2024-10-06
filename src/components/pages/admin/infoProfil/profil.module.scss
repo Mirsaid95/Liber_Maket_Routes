@@ -1,0 +1,35 @@
+.accaunt{
+    max-width: 1240px;
+    height: 210px;
+    padding: 0;
+    margin: 0 auto;
+    background-color: aliceblue;
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.194);
+    margin-top: 30px;
+
+
+    .accaunt_items{
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        gap: 20px;
+    }
+    .accaunt_informs{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-top: 10px;
+    }
+    .informs_title{
+        font-size: 26px;
+        font-weight: 700;
+    }
+    .informs_num{
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 40px;
+    }
+    .informs_id{
+        color: #9A9A9A;
+    }  
+}
