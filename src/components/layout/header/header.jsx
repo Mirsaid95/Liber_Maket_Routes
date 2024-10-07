@@ -3,7 +3,8 @@ import logo from "../../../assets/images/Logo.svg";
 import app from "../../../assets/icons/app.svg";
 import flag from "../../../assets/icons/Frame.svg"
 import style from '../header/header.module.scss';
-import { NavLink } from "react-router-dom";
+import { NavLink, Route, Routes, } from "react-router-dom";
+import { Home } from "../../pages/Home/home";
 
 
 
@@ -11,9 +12,9 @@ export const Header = () => {
     return (
         <div className={style.header}>
             <div className={style.header_items}>
-                <div className={style.header_img}>
-                    <a href=""><img src={logo} alt="" /></a>
-                </div>
+                <NavLink to="/" className={style.header_img}>
+                    <img src={logo} alt="" />
+                </NavLink>
                 <div className={style.input_select}>
                     <div className={style.header_icon_select}>
                         <span><img src={app} alt="" /></span>
@@ -37,8 +38,8 @@ export const Header = () => {
                             <option value="3">Eng</option>
                         </select>
                     </form>
-                    <NavLink to={"/admin"}>
-                    <button className={style.header_button}><i className="fa-regular fa-user"></i> Кириш</button>
+                    <NavLink to="/admin">
+                        <button className={style.header_button}><i className="fa-regular fa-user"></i> Кириш</button>
                     </NavLink>
                 </div>
             </div>

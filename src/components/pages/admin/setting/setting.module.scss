@@ -1,0 +1,59 @@
+.setting {
+    width: 1000px;
+    background-color: aliceblue;
+    height: 60vh;
+    border-radius: 5px;
+    padding: 20px;
+
+    .set_items {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .account_img {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .img {
+            width: 80px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50px;
+            background-color: white;
+            font-size: 30px;
+        }
+
+        p {
+            color: blue;
+        }
+    }
+
+    .input_name {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        input {
+            width: 350px;
+            height: 40px;
+            border: none;
+            border-radius: 10px;
+            padding: 10px;
+            outline: none;
+        }
+    }
+
+    .save_btn {
+        width: 350px;
+        height: 40px;
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        background-color: #3F51B5;
+        color: white;
+    }
+}

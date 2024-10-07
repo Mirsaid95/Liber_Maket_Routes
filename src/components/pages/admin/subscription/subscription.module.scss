@@ -1,0 +1,126 @@
+.subs_items{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    max-width: 1240px;
+    margin: 0 auto;
+
+    .subs_title_img{
+        width: 940px;
+        height: 175px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        background-color: orangered;
+        border-radius: 10px;
+    }
+    .subs_title{
+        font-size: 28px;
+        width: 40%;
+        color: white;
+        padding-left: 30px;
+        padding-top: 15px;
+
+        
+    }
+    .subs_info{
+        width: 940px;
+        height: 465px;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 40px;
+        gap: 20px;
+        background-color: aliceblue;
+        border-radius: 10px;
+    }
+    .subs_form_select_title{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .subs_form_select{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        form{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        label{
+            font-size: 14px;
+            font-weight: 700;
+            
+        }
+        select{
+            width: 350px;
+            height: 40px;
+            border-radius: 10px;
+            border: none;
+            background-color: #EDEDED;
+            padding: 0 10px;
+            outline: none;
+            color: #9A9A9A;
+        }
+    }
+    .form_title{
+        font-size: 30px;
+        color: #11142D;
+    }
+    .form_title2{
+        font-size: 18px;
+        color: #11142D;
+        
+    }
+
+    .subs_seans{
+        display: flex;
+        flex-direction: column;
+        // gap: 30px;
+        justify-content: space-around;
+    }
+    .subs_seans_items{
+        width: 400px;
+        height: 140px;
+        display: flex;
+        flex-direction: column;
+        background-color:white;
+        padding: 15px;
+        border-radius: 10px;
+        justify-content: space-around;
+    }
+    .subs_seans_item{
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+    }
+    .subs_seans_price{
+        color: rgb(52, 52, 250);
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .subs_seans_day{
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .subs_seans_list{
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .subs_button{
+        width: 360px;
+        height: 40px;
+        background-color: #3F51B5;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        font-size: 16px;
+        font-weight: 700;
+        &:hover{
+            transform: scale(1.1);
+            transition: all 1.02s ease;
+            background-color: green;
+        }
+    }
+}

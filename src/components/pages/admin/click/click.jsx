@@ -9,6 +9,7 @@ export const Click = () =>{
     return(
         <div className={style.click}>
             <div className={style.click_items}>
+                <h1>Э-Хисоб</h1>
                 <div className={style.balance_items}>
                     <div className={style.item}>
                         <p className={style.item_list}>Баланс</p>

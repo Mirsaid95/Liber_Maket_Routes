@@ -36,7 +36,7 @@ export const Subscription = () => {
                                 </select>
                             </form>
                         </div>
-                        <h1 className={style.subs_form_title2}>Обуна 30 кун давом этади</h1>
+                        <h1 className={style.form_title2}>Обуна 30 кун давом этади</h1>
                     </div>
                     <div className={style.subs_seans}>
                         <div className={style.subs_seans_items}>
@@ -58,5 +58,6 @@ export const Subscription = () => {
                 </div>
             </div>
         </div>
+        
     )
 }
