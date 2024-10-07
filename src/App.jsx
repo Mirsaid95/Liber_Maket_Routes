@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import './App.css'
-import { Router,Routes,Route} from'react-router-dom'
+import {Routes,Route} from'react-router-dom'
 import { Home } from './components/pages/Home/home'
-import { Accaunt } from './components/pages/admin/infoProfil/profil'
+import { Tab } from './components/pages/admin/admin'
 
 
 
@@ -10,8 +10,11 @@ function App() {
   return (
     <>
       <div>
-        {/* <Home/> */}
-        <Accaunt/>
+        <Routes>
+          <Route path='/' element={<Home/>}/>
+          <Route path='/admin/*' element={<Tab/>}/>
+          <Route/>
+        </Routes>
       </div>
     </>
   )

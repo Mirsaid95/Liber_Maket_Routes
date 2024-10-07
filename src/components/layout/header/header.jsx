@@ -37,7 +37,7 @@ export const Header = () => {
                             <option value="3">Eng</option>
                         </select>
                     </form>
-                    <NavLink >
+                    <NavLink to={"/admin"}>
                     <button className={style.header_button}><i className="fa-regular fa-user"></i> Кириш</button>
                     </NavLink>
                 </div>
